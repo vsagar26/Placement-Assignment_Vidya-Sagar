@@ -1,0 +1,19 @@
+.calc-btn{
+    background-color:  #83129f;
+    border-radius: 4px;
+    height: 4em;
+    width: 4em;
+    border-width: 0px;
+    color: #fff;
+    font-size: 16px;
+}
+.row{
+    margin-top: 2px;
+}
+
+@media screen {
+    .calc-btn:hover{
+        background-color:  #aa00b6;
+        cursor: pointer;
+    }
+}
