@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main Nav Bar */
+
+.logo{
+    height: 40px;
+}
+
+.nav-search-box{
+    border: 2px solid #233C7B;
+    height: 42px;
+    width: 760px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.signin-btn{
+    background-color: #233C7B;
+    color: #fff;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 15px;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+}
+
+.signup-btn{
+    background-color: #fff;
+    color: #233C7B;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 15px;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 20px;
+}
+
+.search-icon{
+    height: 30px;
+}
+
+.search-group>p{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #233C7B;
+    padding-top : 7px;
+}
+
+.search-group{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    left: 360px;
+
+}
+
+/* Sub Nav Menu */
+
+.nav-submenu{
+    list-style: none;
+    font-family: Montserrat;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 40px 50px 20px 120px;
+    
+}
+
+.nav-submenu li{
+    cursor: pointer;
+}
