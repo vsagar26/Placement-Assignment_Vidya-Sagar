@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.App{
+    background-color: #ff9c9c;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper, .cardbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    background-color: #f96363;
+}
+
+.cardbody{
+    gap: 10px;
+}
+
+h2,p{
+    font-family: Montserrat;
+}
+
+p{
+    font-size: 40px;
+    color: #fff;
+}
+
+button{
+    background-color: #242424;
+    color: #fff;
+    padding: 6px 30px;
+    cursor: pointer;
+}
