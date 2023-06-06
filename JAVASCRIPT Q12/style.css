@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    
+}
+
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: #4f0069;
+    color: #fff;
+    border-radius: 10px;
+}
+
+table.list{
+    text-align: center;
+    width: 80%;
+}
+
+td{
+    text-align: left;
+    padding: 8px 15px;
+    
+}
+
+
+.tdlist{
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+#storeList{
+    margin-left: 90px;
+}
+
+#storeList thead{
+    background-color: #fff;
+    color: #4f0069;
+}
+
+
+
+label{
+    font-size: 14px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: #cb0544;
+}
+
+input[type="text"],input[type="number"]{
+    width:61%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+#blogtext{
+    width:61%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #ffffff;
+    border: 1px solid #4f0069;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    color: #4f0069;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover{
+    background: #4f0069;
+    color: #fff;
+    border: 1px solid #fff;
+    
+}
+
+input[type="reset"]:hover{
+    background: #4f0069;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+
+
+
